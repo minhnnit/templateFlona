@@ -57,8 +57,8 @@ header {
       font-weight: 600;
     }
   }
-  .margin-left-23{
-    margin-left: 23px;
+  .margin-left-top-title{
+    margin-left: 110px;
   }
 }
 
@@ -69,8 +69,6 @@ header {
     height: 100%;
     background-color: #181E29;
     .banner-top-left-text {
-      width: 70%;
-      margin: 0 auto;
       padding-top: 40px;
       padding-bottom: 40px;
       .banner-title {
@@ -113,7 +111,7 @@ header {
   .banner-top-right {
     img {
       max-width: 100%;
-      min-height: 351px;
+      min-height: 350px;
     }
   }
 }
@@ -363,6 +361,10 @@ header {
     }
   }
 }
+.padding-left-banner-top{
+  padding-left: 110px;
+}
+
 
 @media (max-width: 1199px) {
   .subcribe-class {
@@ -406,6 +408,14 @@ header {
   .classes-gallery .classes-gallery-img img {
     margin-top: 10px;
   }
+  .top-title .margin-left-top-title{
+    margin-left: 47px;
+  }
+  .padding-left-banner-top {
+    padding-left: 40px;
+  }
+
+
 }
 
 @media (max-width: 767px) {
@@ -470,10 +480,6 @@ header {
   {
     padding: 12px 90px;
   }
-  .banner-top-left-text
-  {
-    text-align: center;
-  }
   .classes-services .classes-services-img .classes-service-list-left .classes-service-list-left-text{
     width: 70%;
   }
@@ -485,5 +491,11 @@ header {
   }
   .classes-services .classes-services-img .classes-service-list-right .classes-service-list-right-text{
     width: 70%;
+  }
+  .margin-left-top-title{
+    margin-left: 90px;
+  }
+  .padding-left-banner-top{
+    margin-left: 0;
   }
 }

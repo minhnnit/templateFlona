@@ -45,8 +45,8 @@ header {
       color: white;
       padding-bottom: 20px;
       font-weight: 600; }
-  .top-title .margin-left-23 {
-    margin-left: 23px; }
+  .top-title .margin-left-top-title {
+    margin-left: 110px; }
 
 .banner-top {
   height: 100%;
@@ -55,8 +55,6 @@ header {
     height: 100%;
     background-color: #181E29; }
     .banner-top .banner-top-left .banner-top-left-text {
-      width: 70%;
-      margin: 0 auto;
       padding-top: 40px;
       padding-bottom: 40px; }
       .banner-top .banner-top-left .banner-top-left-text .banner-title {
@@ -90,7 +88,7 @@ header {
           padding-right: 20px; }
   .banner-top .banner-top-right img {
     max-width: 100%;
-    min-height: 351px; }
+    min-height: 350px; }
 
 .subcribe-class {
   margin-top: 35px;
@@ -279,6 +277,9 @@ header {
       .footer .border-bottom .store-address .address-title {
         font-weight: bold; }
 
+.padding-left-banner-top {
+  padding-left: 110px; }
+
 @media (max-width: 1199px) {
   .subcribe-class .form-subcribe .form-subcribe-input .form-width {
     width: 218px; }
@@ -300,7 +301,13 @@ header {
     height: 154px; }
 
   .classes-gallery .classes-gallery-img img {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .top-title .margin-left-top-title {
+    margin-left: 47px; }
+
+  .padding-left-banner-top {
+    padding-left: 40px; } }
 @media (max-width: 767px) {
   .subcribe-class .subcribe-class-img {
     text-align: center; }
@@ -349,9 +356,6 @@ header {
   .subcribe-class .form-subcribe .form-subcribe-input button {
     padding: 12px 90px; }
 
-  .banner-top-left-text {
-    text-align: center; }
-
   .classes-services .classes-services-img .classes-service-list-left .classes-service-list-left-text {
     width: 70%; }
 
@@ -362,6 +366,12 @@ header {
     width: 30%; }
 
   .classes-services .classes-services-img .classes-service-list-right .classes-service-list-right-text {
-    width: 70%; } }
+    width: 70%; }
+
+  .margin-left-top-title {
+    margin-left: 90px; }
+
+  .padding-left-banner-top {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=app.css.map */
