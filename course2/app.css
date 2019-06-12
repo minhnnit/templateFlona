@@ -1,0 +1,348 @@
+/*course 2 scss*/
+@font-face {
+  font-family: tinos;
+  src: url("Tinos-Regular.ttf"); }
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Light.ttf"); }
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000; }
+
+.padding-left-0 {
+  padding-left: 0; }
+
+.padding-right-0 {
+  padding-right: 0; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px; }
+
+@media (min-width: 1200px) {
+  .wrap-container {
+    max-width: 960px; } }
+.banner-top {
+  background-color: #FEDAE4;
+  padding-bottom: 45px; }
+  .banner-top .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .banner-top .wrap-container .banner {
+      margin-top: 47px; }
+      .banner-top .wrap-container .banner .banner-img img {
+        max-width: 100%; }
+      .banner-top .wrap-container .banner .banner-text {
+        text-align: center; }
+        .banner-top .wrap-container .banner .banner-text .logo {
+          padding-top: 10px; }
+          .banner-top .wrap-container .banner .banner-text .logo img {
+            border-radius: 330px;
+            border: 3px solid black;
+            max-width: 24%; }
+        .banner-top .wrap-container .banner .banner-text .title {
+          padding-top: 6px; }
+          .banner-top .wrap-container .banner .banner-text .title span {
+            font-family: tinos;
+            font-weight: 400;
+            line-height: 25px;
+            font-size: 20px; }
+        .banner-top .wrap-container .banner .banner-text .title-description {
+          margin-top: 17px; }
+          .banner-top .wrap-container .banner .banner-text .title-description span {
+            font-family: tinos;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 4px;
+            font-size: 14px;
+            background-color: black;
+            color: #fafafa;
+            padding: 11px 15px 6px 13px; }
+        .banner-top .wrap-container .banner .banner-text .from-to-course {
+          margin-top: 17px; }
+          .banner-top .wrap-container .banner .banner-text .from-to-course span {
+            color: black;
+            font-weight: 700;
+            line-height: 32px;
+            font-size: 24px; }
+        .banner-top .wrap-container .banner .banner-text .bottom-description {
+          margin-top: 31px; }
+          .banner-top .wrap-container .banner .banner-text .bottom-description span {
+            font-family: Roboto;
+            color: #753D53;
+            font-weight: 600;
+            line-height: 20px;
+            font-size: 16px; }
+        .banner-top .wrap-container .banner .banner-text .bottom-button-banner {
+          margin-top: 65px; }
+          .banner-top .wrap-container .banner .banner-text .bottom-button-banner button {
+            background-color: #FF5C60;
+            border-radius: 0;
+            padding: 11px 26px 11px 26px; }
+            .banner-top .wrap-container .banner .banner-text .bottom-button-banner button span {
+              color: #fafafa;
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 600; }
+
+.banner-welcome {
+  margin-top: 20px;
+  margin-bottom: 70px; }
+  .banner-welcome .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .banner-welcome .wrap-container .welcome .welcome-text {
+      margin-top: 65px; }
+      .banner-welcome .wrap-container .welcome .welcome-text .top-text span {
+        font-family: 'Open Sans', sans-serif;
+        color: #fe6367;
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 33px; }
+      .banner-welcome .wrap-container .welcome .welcome-text .hr {
+        max-width: 13%;
+        margin-left: 0;
+        border-top: 1px solid #FE6367;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .banner-welcome .wrap-container .welcome .welcome-text .text-description span {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        line-height: 20px;
+        color: #787878;
+        font-size: 14px; }
+      .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon {
+        margin-top: 35px; }
+        .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-left, .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-mid, .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-right {
+          float: left;
+          width: 33%; }
+          .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-left .icon, .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-mid .icon, .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-right .icon {
+            float: left;
+            max-width: 52px;
+            border-radius: 35px;
+            background-color: #E0E0E0;
+            padding: 15px 18px;
+            font-size: 22px; }
+          .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-left .icon-des, .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-mid .icon-des, .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-right .icon-des {
+            margin-top: 7px;
+            padding-left: 10px;
+            width: 70%;
+            float: left; }
+            .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-left .icon-des span, .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-mid .icon-des span, .banner-welcome .wrap-container .welcome .welcome-text .welcome-icon .welcome-icon-right .icon-des span {
+              font-family: 'Open Sans', sans-serif;
+              color: #666666;
+              font-weight: 400;
+              line-height: 20px;
+              font-size: 14px; }
+    .banner-welcome .wrap-container .welcome-img img {
+      max-width: 100%; }
+
+.flower-training {
+  background-color: #EEEEEE;
+  padding-bottom: 85px; }
+  .flower-training .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .flower-training .wrap-container .flower-training-title {
+      text-align: center;
+      margin-top: 60px; }
+      .flower-training .wrap-container .flower-training-title h1 {
+        font-family: 'Open Sans', sans-serif;
+        color: #fe6367;
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 36px; }
+    .flower-training .wrap-container hr {
+      width: 6%;
+      border-top: 2px solid #FE6367;
+      padding-bottom: 30px; }
+    .flower-training .wrap-container .flower-training-img img {
+      max-width: 100%; }
+
+.comment {
+  text-align: center;
+  padding-bottom: 60px; }
+  .comment .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .comment .wrap-container .comment-section {
+      padding-top: 60px; }
+      .comment .wrap-container .comment-section .comment-col {
+        background-color: #F5F5F5; }
+        .comment .wrap-container .comment-section .comment-col .comment-icon {
+          padding-top: 20px;
+          padding-bottom: 20px; }
+          .comment .wrap-container .comment-section .comment-col .comment-icon .comment-icon-wrap {
+            font-size: 25px; }
+            .comment .wrap-container .comment-section .comment-col .comment-icon .comment-icon-wrap i {
+              background-color: #FE6367;
+              border-radius: 40px;
+              padding: 12px;
+              color: white; }
+        .comment .wrap-container .comment-section .comment-col .comment-text {
+          font-family: 'Open Sans', sans-serif;
+          color: #616161;
+          line-height: 20px;
+          font-size: 14px;
+          margin-left: 25px;
+          margin-right: 25px;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #E0E0E0; }
+        .comment .wrap-container .comment-section .comment-col .comment-info {
+          padding-top: 25px;
+          padding-left: 30px;
+          display: -webkit-inline-box;
+          padding-bottom: 20px; }
+          .comment .wrap-container .comment-section .comment-col .comment-info .avatar {
+            max-width: 30%; }
+            .comment .wrap-container .comment-section .comment-col .comment-info .avatar img {
+              max-width: 70%;
+              border-radius: 75px; }
+          .comment .wrap-container .comment-section .comment-col .comment-info .avatar-info {
+            max-width: 70%;
+            padding-top: 7px; }
+
+.contact {
+  background-color: #00BCD4;
+  text-align: center;
+  padding-bottom: 100px; }
+  .contact .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .contact .wrap-container .logo {
+      padding-top: 80px; }
+      .contact .wrap-container .logo img {
+        max-width: 13%;
+        border: 2px solid white;
+        border-radius: 80px; }
+    .contact .wrap-container .title {
+      padding-top: 35px; }
+      .contact .wrap-container .title h2 {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        line-height: 36px;
+        font-size: 30px; }
+    .contact .wrap-container .description {
+      padding-top: 20px;
+      padding-bottom: 50px; }
+      .contact .wrap-container .description i {
+        font-size: 25px;
+        color: white; }
+      .contact .wrap-container .description span {
+        font-family: Roboto;
+        color: white;
+        font-weight: 300;
+        line-height: 22px;
+        font-size: 18px;
+        padding-left: 20px; }
+    .contact .wrap-container .sign-up {
+      max-width: 620px;
+      margin: 0 auto; }
+      .contact .wrap-container .sign-up .description-signtup {
+        background-color: white;
+        padding-top: 30px;
+        padding-bottom: 24px; }
+        .contact .wrap-container .sign-up .description-signtup span {
+          font-family: Roboto;
+          color: rgba(19, 3, 64, 0.97);
+          font-weight: 400;
+          line-height: 20px;
+          font-size: 14px; }
+      .contact .wrap-container .sign-up .signup-btn {
+        background-color: white;
+        padding-top: 33px;
+        padding-bottom: 27px; }
+        .contact .wrap-container .sign-up .signup-btn button {
+          padding: 15px 50px;
+          border-radius: 0;
+          background-color: #E82560; }
+          .contact .wrap-container .sign-up .signup-btn button span {
+            background-color: #e82560;
+            color: #ffffff;
+            font-weight: 700;
+            line-height: 22px;
+            font-size: 18px; }
+
+.footer {
+  background-color: #1F1E1E;
+  color: #C5F1FF;
+  padding-bottom: 50px; }
+  .footer .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid white; }
+    .footer .wrap-container .content {
+      padding-top: 70px; }
+      .footer .wrap-container .content .footer-left .top {
+        color: white;
+        font-weight: 600;
+        line-height: 27px;
+        font-size: 21px; }
+      .footer .wrap-container .content .footer-left .bottom {
+        font-family: Roboto;
+        color: white;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 14px;
+        padding-top: 30px; }
+      .footer .wrap-container .content .footer-right .top {
+        color: white;
+        font-weight: 600;
+        line-height: 27px;
+        font-size: 21px; }
+      .footer .wrap-container .content .footer-right .bottom {
+        font-family: Roboto;
+        color: white;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 14px;
+        padding-top: 30px; }
+        .footer .wrap-container .content .footer-right .bottom .home i, .footer .wrap-container .content .footer-right .bottom .phone i, .footer .wrap-container .content .footer-right .bottom .email i, .footer .wrap-container .content .footer-right .bottom .website i {
+          font-size: 18px; }
+        .footer .wrap-container .content .footer-right .bottom .home span, .footer .wrap-container .content .footer-right .bottom .phone span, .footer .wrap-container .content .footer-right .bottom .email span, .footer .wrap-container .content .footer-right .bottom .website span {
+          padding-left: 10px; }
+
+@media (max-width: 767px) {
+  .padding-right-0, .padding-left-0 {
+    padding: 0; }
+
+  .flower-training-img img {
+    padding-top: 15px; }
+
+  .comment .wrap-container .comment-section .comment-col {
+    margin-bottom: 15px; }
+
+  .contact .wrap-container .logo img {
+    max-width: 17%; } }
+@media (max-width: 479px) {
+  .flower-training-img img {
+    padding-top: 15px; }
+
+  .flower-training .wrap-container .flower-training-title h1 {
+    font-size: 25px; }
+
+  .contact .wrap-container .logo img {
+    max-width: 25%; }
+
+  .contact .wrap-container .title h2 {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=app.css.map */
