@@ -1,0 +1,472 @@
+@font-face {
+  font-family: Lobster;
+  src: url("UVF Lobster12.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Light.ttf");
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  background: #fafafa;
+  color: #000;
+}
+
+@media (min-width: 1200px) {
+  .wrap-container {
+    max-width: 650px;
+  }
+}
+@media (min-width: 992px) {
+  .wrap-container {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrap-container-lg {
+    max-width: 960px;
+  }
+}
+
+.wrap-container-lg {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.banner-top {
+  background-color: #1363A2;
+  text-align: center;
+  .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    .banner {
+      padding-bottom: 50px;
+      .logo {
+        padding-top: 30px;
+        img {
+          max-width: 22%;
+          border-radius: 150px;
+        }
+      }
+      .title {
+        font-family: Lobster, cursive;
+        font-weight: 400;
+        line-height: 72px;
+        h1 {
+          color: white;
+          font-size: 45px;
+        }
+      }
+      .description {
+        padding-bottom: 50px;
+        span {
+          font-family: Roboto;
+          color: rgba(255, 255, 255, 1);
+          font-weight: 600;
+          line-height: 28px;
+          font-size: 18px;
+        }
+      }
+      .banner-button {
+        padding-bottom: 35px;
+        button {
+          border-radius: 2px;
+          background-color: #E04638;
+          padding: 9px 30px;
+          span {
+            color: white;
+            font-weight: 700;
+            line-height: 22px;
+            font-size: 15px;
+          }
+        }
+      }
+      .image {
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.start-learning {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  .title {
+    font-family: Lobster;
+    color: rgb(105, 140, 176);
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .learning-content {
+    .icon-left {
+      i {
+        font-size: 60px;
+        color: #91009E;
+      }
+    }
+    .icon-center {
+      i {
+        font-size: 60px;
+        color: #0FDBF7;
+      }
+    }
+    .icon-right {
+      i {
+        font-size: 60px;
+        color: #FAB400;
+      }
+    }
+    .title-learning {
+      color: rgb(105, 140, 176);
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 2px;
+      font-size: 21px;
+      padding-top: 20px;
+      padding-bottom: 15px;
+    }
+    .description-learning {
+      font-family: Roboto;
+      color: rgba(105, 140, 176, 1);
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 1px;
+      font-size: 14px;
+    }
+  }
+}
+
+.featured-class {
+  padding-bottom: 100px;
+  background-color: #E74534;
+  text-align: center;
+  .wrap-container-lg {
+    .title {
+      font-family: Lobster;
+      color: white;
+      font-weight: 400;
+      line-height: 42px;
+      font-size: 36px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+    .content {
+      .class-info {
+        .img {
+          img {
+            max-width: 100%;
+          }
+        }
+        .info-title {
+          background-color: white;
+          h5 {
+            color: rgba(231, 69, 52, 1);
+            font-weight: 700;
+            line-height: 24px;
+            font-size: 18px;
+            margin: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+        }
+        .info-text {
+          background-color: white;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-bottom: 20px;
+          span {
+            font-family: Roboto;
+            color: rgba(97, 97, 97, 1);
+            font-weight: 400;
+            line-height: 20px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.video-training {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 75px;
+  .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    .title {
+      h1 {
+        font-family: Lobster;
+        color: #698CB0;
+        font-weight: 400;
+        line-height: 42px;
+        font-size: 36px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+      }
+    }
+    .video {
+      iframe {
+        width: 640px;
+        height: 360px;
+      }
+    }
+  }
+}
+
+.teacher {
+  background-color: #F3F3F3;
+  padding-bottom: 50px;
+  .title {
+    text-align: center;
+    h1 {
+      font-family: Lobster;
+      color: #698CB0;
+      font-weight: 400;
+      line-height: 42px;
+      font-size: 36px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+  }
+  .content {
+    text-align: center;
+    .teacher-info {
+      .img {
+        img {
+          max-width: 100%;
+        }
+      }
+      .info-title {
+        background-color: white;
+        h5 {
+          font-family: Roboto;
+          font-weight: 700;
+          line-height: 24px;
+          font-size: 18px;
+          margin: 0;
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+      }
+      .info-text {
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        p {
+          font-family: Roboto;
+          color: rgb(105, 140, 176);
+          font-weight: 400;
+          line-height: 20px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.price {
+  text-align: center;
+  .title {
+    font-family: Lobster;
+    color: #698CB0;
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .price-content {
+    .price-box-left {
+      background-color: #FAC42B;
+    }
+    .price-box-center {
+      background-color: #FCBA00;
+    }
+    .price-box-right {
+      background-color: #F0B202;
+    }
+    .price-box {
+      width: 33%;
+      float: left;
+      .top {
+        height: 83px;
+        .price {
+          width: 50%;
+          float: left;
+          padding-top: 35px;
+          padding-bottom: 20px;
+          font-size: 45px;
+          color: white;
+          font-weight: 600;
+        }
+        .type {
+          width: 50%;
+          float: left;
+          padding-top: 34px;
+          padding-bottom: 20px;
+          .type-border {
+            span {
+              background-color: #E74534;
+              padding: 8px 25px;
+              border-radius: 20px;
+              font-family: Roboto;
+              color: white;
+
+            }
+          }
+        }
+      }
+      .bottom {
+        padding-bottom: 20px;
+        color: white;
+        font-family: Roboto;
+        text-align: left;
+        margin: 0 30px 0 30px;
+        font-size: 14px;
+        p {
+          border-bottom: 1px dotted white;
+          padding-bottom: 7px;
+        }
+      }
+    }
+  }
+  .btn {
+    border-radius: 0;
+    border: 2px solid #0F0F0F;
+    background-color: white;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    span {
+      font-weight: 700;
+      line-height: 22px;
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+}
+.footer{
+  background-color: #232845;
+  .content-footer{
+    padding-top: 65px;
+    .footer-left{
+      .top{
+        span{
+          font-family: Roboto;
+          color: white;
+          font-size: 25px;
+          font-weight: bold;
+        }
+      }
+      .bottom{
+        font-family: Roboto;
+        color: rgba(255,255,255,1);
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 14px;
+        padding-top: 15px;
+        .home,.phone,.email,.website{
+          padding-bottom: 5px;
+          i{
+            font-size: 18px;
+          }
+          span{
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+    .footer-right{
+      .top{
+        span{
+          font-family: Roboto;
+          font-size: 15px;
+          color: white;
+        }
+      }
+      .bottom{
+        .form-inline{
+          margin-top: 11px;
+          .form-group{
+            input{
+              border-radius: 0;
+            }
+          }
+          button{
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+  .banner-top .wrap-container .banner .logo img
+  {
+    max-width: 16%;
+  }
+}
+
+@media (max-width: 767px) {
+  .class-info{
+    padding-bottom: 20px;
+  }
+  .teacher-info{
+    padding-bottom: 20px;
+  }
+  .banner-top .wrap-container .banner .title h1
+  {
+    font-size: 33px;
+  }
+  .video-training .wrap-container .video iframe {
+    width: 425px;
+    height: 360px;
+  }
+
+  .price .price-content .price-box{
+    float: none;
+    margin: 0 auto;
+    width: 270px;
+  }
+  .price .price-content .price-box .bottom{
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 479px) {
+  .video-training .wrap-container .video iframe {
+    width: 320px;
+    height: 200px;
+  }
+  .banner-top .wrap-container .banner .logo img
+  {
+    max-width: 20%;
+  }
+}

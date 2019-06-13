@@ -1,0 +1,337 @@
+@font-face {
+  font-family: Lobster;
+  src: url("UVF Lobster12.ttf"); }
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Light.ttf"); }
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  background: #fafafa;
+  color: #000; }
+
+@media (min-width: 1200px) {
+  .wrap-container {
+    max-width: 650px; } }
+@media (min-width: 992px) {
+  .wrap-container {
+    max-width: 650px; } }
+@media (min-width: 992px) {
+  .wrap-container-lg {
+    max-width: 960px; } }
+.wrap-container-lg {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.banner-top {
+  background-color: #1363A2;
+  text-align: center; }
+  .banner-top .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .banner-top .wrap-container .banner {
+      padding-bottom: 50px; }
+      .banner-top .wrap-container .banner .logo {
+        padding-top: 30px; }
+        .banner-top .wrap-container .banner .logo img {
+          max-width: 22%;
+          border-radius: 150px; }
+      .banner-top .wrap-container .banner .title {
+        font-family: Lobster, cursive;
+        font-weight: 400;
+        line-height: 72px; }
+        .banner-top .wrap-container .banner .title h1 {
+          color: white;
+          font-size: 45px; }
+      .banner-top .wrap-container .banner .description {
+        padding-bottom: 50px; }
+        .banner-top .wrap-container .banner .description span {
+          font-family: Roboto;
+          color: white;
+          font-weight: 600;
+          line-height: 28px;
+          font-size: 18px; }
+      .banner-top .wrap-container .banner .banner-button {
+        padding-bottom: 35px; }
+        .banner-top .wrap-container .banner .banner-button button {
+          border-radius: 2px;
+          background-color: #E04638;
+          padding: 9px 30px; }
+          .banner-top .wrap-container .banner .banner-button button span {
+            color: white;
+            font-weight: 700;
+            line-height: 22px;
+            font-size: 15px; }
+      .banner-top .wrap-container .banner .image img {
+        max-width: 100%; }
+
+.start-learning {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 50px; }
+  .start-learning .title {
+    font-family: Lobster;
+    color: #698cb0;
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .start-learning .learning-content .icon-left i {
+    font-size: 60px;
+    color: #91009E; }
+  .start-learning .learning-content .icon-center i {
+    font-size: 60px;
+    color: #0FDBF7; }
+  .start-learning .learning-content .icon-right i {
+    font-size: 60px;
+    color: #FAB400; }
+  .start-learning .learning-content .title-learning {
+    color: #698cb0;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-size: 21px;
+    padding-top: 20px;
+    padding-bottom: 15px; }
+  .start-learning .learning-content .description-learning {
+    font-family: Roboto;
+    color: #698cb0;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 14px; }
+
+.featured-class {
+  padding-bottom: 100px;
+  background-color: #E74534;
+  text-align: center; }
+  .featured-class .wrap-container-lg .title {
+    font-family: Lobster;
+    color: white;
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .featured-class .wrap-container-lg .content .class-info .img img {
+    max-width: 100%; }
+  .featured-class .wrap-container-lg .content .class-info .info-title {
+    background-color: white; }
+    .featured-class .wrap-container-lg .content .class-info .info-title h5 {
+      color: #e74534;
+      font-weight: 700;
+      line-height: 24px;
+      font-size: 18px;
+      margin: 0;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+  .featured-class .wrap-container-lg .content .class-info .info-text {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px; }
+    .featured-class .wrap-container-lg .content .class-info .info-text span {
+      font-family: Roboto;
+      color: #616161;
+      font-weight: 400;
+      line-height: 20px;
+      font-size: 14px; }
+
+.video-training {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 75px; }
+  .video-training .wrap-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .video-training .wrap-container .title h1 {
+      font-family: Lobster;
+      color: #698CB0;
+      font-weight: 400;
+      line-height: 42px;
+      font-size: 36px;
+      padding-top: 50px;
+      padding-bottom: 30px; }
+    .video-training .wrap-container .video iframe {
+      width: 640px;
+      height: 360px; }
+
+.teacher {
+  background-color: #F3F3F3;
+  padding-bottom: 50px; }
+  .teacher .title {
+    text-align: center; }
+    .teacher .title h1 {
+      font-family: Lobster;
+      color: #698CB0;
+      font-weight: 400;
+      line-height: 42px;
+      font-size: 36px;
+      padding-top: 50px;
+      padding-bottom: 30px; }
+  .teacher .content {
+    text-align: center; }
+    .teacher .content .teacher-info .img img {
+      max-width: 100%; }
+    .teacher .content .teacher-info .info-title {
+      background-color: white; }
+      .teacher .content .teacher-info .info-title h5 {
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 24px;
+        font-size: 18px;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+    .teacher .content .teacher-info .info-text {
+      background-color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 20px; }
+      .teacher .content .teacher-info .info-text p {
+        font-family: Roboto;
+        color: #698cb0;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 14px; }
+
+.price {
+  text-align: center; }
+  .price .title {
+    font-family: Lobster;
+    color: #698CB0;
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .price .price-content .price-box-left {
+    background-color: #FAC42B; }
+  .price .price-content .price-box-center {
+    background-color: #FCBA00; }
+  .price .price-content .price-box-right {
+    background-color: #F0B202; }
+  .price .price-content .price-box {
+    width: 33%;
+    float: left; }
+    .price .price-content .price-box .top {
+      height: 83px; }
+      .price .price-content .price-box .top .price {
+        width: 50%;
+        float: left;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        font-size: 45px;
+        color: white;
+        font-weight: 600; }
+      .price .price-content .price-box .top .type {
+        width: 50%;
+        float: left;
+        padding-top: 34px;
+        padding-bottom: 20px; }
+        .price .price-content .price-box .top .type .type-border span {
+          background-color: #E74534;
+          padding: 8px 25px;
+          border-radius: 20px;
+          font-family: Roboto;
+          color: white; }
+    .price .price-content .price-box .bottom {
+      padding-bottom: 20px;
+      color: white;
+      font-family: Roboto;
+      text-align: left;
+      margin: 0 30px 0 30px;
+      font-size: 14px; }
+      .price .price-content .price-box .bottom p {
+        border-bottom: 1px dotted white;
+        padding-bottom: 7px; }
+  .price .btn {
+    border-radius: 0;
+    border: 2px solid #0F0F0F;
+    background-color: white;
+    margin-top: 35px;
+    margin-bottom: 50px; }
+    .price .btn span {
+      font-weight: 700;
+      line-height: 22px;
+      font-size: 14px;
+      padding: 10px 20px; }
+
+.footer {
+  background-color: #232845; }
+  .footer .content-footer {
+    padding-top: 65px; }
+    .footer .content-footer .footer-left .top span {
+      font-family: Roboto;
+      color: white;
+      font-size: 25px;
+      font-weight: bold; }
+    .footer .content-footer .footer-left .bottom {
+      font-family: Roboto;
+      color: white;
+      font-weight: 400;
+      line-height: 22px;
+      font-size: 14px;
+      padding-top: 15px; }
+      .footer .content-footer .footer-left .bottom .home, .footer .content-footer .footer-left .bottom .phone, .footer .content-footer .footer-left .bottom .email, .footer .content-footer .footer-left .bottom .website {
+        padding-bottom: 5px; }
+        .footer .content-footer .footer-left .bottom .home i, .footer .content-footer .footer-left .bottom .phone i, .footer .content-footer .footer-left .bottom .email i, .footer .content-footer .footer-left .bottom .website i {
+          font-size: 18px; }
+        .footer .content-footer .footer-left .bottom .home span, .footer .content-footer .footer-left .bottom .phone span, .footer .content-footer .footer-left .bottom .email span, .footer .content-footer .footer-left .bottom .website span {
+          padding-left: 10px; }
+    .footer .content-footer .footer-right .top span {
+      font-family: Roboto;
+      font-size: 15px;
+      color: white; }
+    .footer .content-footer .footer-right .bottom .form-inline {
+      margin-top: 11px; }
+      .footer .content-footer .footer-right .bottom .form-inline .form-group input {
+        border-radius: 0; }
+      .footer .content-footer .footer-right .bottom .form-inline button {
+        border-radius: 0; }
+
+@media (max-width: 991px) {
+  .banner-top .wrap-container .banner .logo img {
+    max-width: 16%; } }
+@media (max-width: 767px) {
+  .class-info {
+    padding-bottom: 20px; }
+
+  .teacher-info {
+    padding-bottom: 20px; }
+
+  .banner-top .wrap-container .banner .title h1 {
+    font-size: 33px; }
+
+  .video-training .wrap-container .video iframe {
+    width: 425px;
+    height: 360px; }
+
+  .price .price-content .price-box {
+    float: none;
+    margin: 0 auto;
+    width: 270px; }
+
+  .price .price-content .price-box .bottom {
+    margin-bottom: 15px; } }
+@media (max-width: 479px) {
+  .video-training .wrap-container .video iframe {
+    width: 320px;
+    height: 200px; }
+
+  .banner-top .wrap-container .banner .logo img {
+    max-width: 20%; } }
+
+/*# sourceMappingURL=app.css.map */
