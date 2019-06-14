@@ -410,13 +410,19 @@ body {
       .bottom{
         .form-inline{
           margin-top: 11px;
+          font-family: Roboto;
           .form-group{
             input{
               border-radius: 0;
+              width: 300px;
             }
           }
           button{
             border-radius: 0;
+            background-color: #3C4578;
+            padding-left: 35px;
+            padding-right: 35px;
+            border-color: #3C4578;
           }
         }
       }
@@ -431,6 +437,9 @@ body {
   .banner-top .wrap-container .banner .logo img
   {
     max-width: 16%;
+  }
+  .footer .content-footer .footer-right .bottom .form-inline .form-group input{
+    width: 200px;
   }
 }
 
@@ -457,6 +466,14 @@ body {
   }
   .price .price-content .price-box .bottom{
     margin-bottom: 15px;
+  }
+
+  .footer{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .form-control{
+    display: unset;
   }
 }
 

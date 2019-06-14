@@ -46,7 +46,7 @@ header {
       padding-bottom: 20px;
       font-weight: 600; }
   .top-title .margin-left-top-title {
-    margin-left: 110px; }
+    margin-left: 120px; }
 
 .banner-top {
   height: 100%;
@@ -278,7 +278,7 @@ header {
         font-weight: bold; }
 
 .padding-left-banner-top {
-  padding-left: 110px; }
+  padding-left: 120px; }
 
 @media (max-width: 1199px) {
   .subcribe-class .form-subcribe .form-subcribe-input .form-width {
@@ -307,7 +307,7 @@ header {
     margin-left: 47px; }
 
   .padding-left-banner-top {
-    padding-left: 40px; } }
+    padding-left: 46px; } }
 @media (max-width: 767px) {
   .subcribe-class .subcribe-class-img {
     text-align: center; }
