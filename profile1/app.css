@@ -1,0 +1,499 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("Montserrat-Regular.otf"); }
+@font-face {
+  font-family: MontserratBold;
+  src: url("Montserrat-Bold.otf"); }
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  background: #fafafa;
+  color: #000; }
+
+@media (min-width: 992px) {
+  .wrap-container-lg {
+    max-width: 960px; } }
+.wrap-container-lg {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.banner-top {
+  background-color: #E91E63;
+  padding-bottom: 76px; }
+  .banner-top .banner-content {
+    padding-top: 76px; }
+    .banner-top .banner-content .banner-left {
+      padding-top: 130px; }
+      .banner-top .banner-content .banner-left .content .top h1 {
+        font-family: Montserrat, sans-serif;
+        color: white;
+        font-weight: 400;
+        line-height: 46px;
+        font-size: 40px; }
+      .banner-top .banner-content .banner-left .content .center h1 {
+        font-family: MontserratBold, sans-serif;
+        color: white;
+        font-weight: 700;
+        line-height: 66px;
+        font-size: 60px;
+        margin-top: 0; }
+      .banner-top .banner-content .banner-left .content .bottom {
+        background-color: black; }
+        .banner-top .banner-content .banner-left .content .bottom h6 {
+          font-family: Montserrat, sans-serif;
+          color: #f7ed00;
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 16px;
+          margin-top: 0;
+          padding-top: 10px;
+          padding-bottom: 8px;
+          padding-left: 11px; }
+    .banner-top .banner-content .banner-right img {
+      max-width: 100%; }
+
+.personal {
+  padding-bottom: 10px; }
+  .personal .personal-content .personal-left .content {
+    padding-top: 130px; }
+    .personal .personal-content .personal-left .content .top {
+      font-family: MontserratBold;
+      color: black;
+      font-weight: 700;
+      line-height: 36px;
+      font-size: 30px; }
+      .personal .personal-content .personal-left .content .top span {
+        color: #EF106E;
+        font-size: 40px; }
+    .personal .personal-content .personal-left .content .center {
+      padding-left: 26px;
+      padding-top: 26px;
+      max-width: 376px; }
+      .personal .personal-content .personal-left .content .center p {
+        font-family: Montserrat;
+        color: black;
+        font-weight: 400;
+        line-height: 23px;
+        font-size: 16px; }
+    .personal .personal-content .personal-left .content .form-bottom {
+      padding-top: 15px;
+      padding-left: 26px; }
+      .personal .personal-content .personal-left .content .form-bottom .list {
+        font-family: Montserrat;
+        color: black;
+        font-weight: 400;
+        line-height: 23px;
+        font-size: 18px;
+        margin-bottom: 20px; }
+        .personal .personal-content .personal-left .content .form-bottom .list .info-left {
+          width: 30%;
+          float: left;
+          border-bottom: 1px solid #C4C4C4;
+          padding-bottom: 10px;
+          padding-top: 20px; }
+        .personal .personal-content .personal-left .content .form-bottom .list .info-right {
+          width: 70%;
+          float: left;
+          border-bottom: 1px solid #C4C4C4;
+          padding-bottom: 10px;
+          padding-top: 20px; }
+      .personal .personal-content .personal-left .content .form-bottom .button-personal button {
+        margin-top: 35px;
+        border-radius: 1px;
+        background-color: black;
+        padding: 10px 40px 10px 40px; }
+        .personal .personal-content .personal-left .content .form-bottom .button-personal button span {
+          color: white;
+          font-weight: bold; }
+  .personal .personal-content .personal-right {
+    margin-top: 164px; }
+    .personal .personal-content .personal-right img {
+      max-width: 100%; }
+
+.skill {
+  background-color: #EDEDED;
+  padding-bottom: 80px; }
+  .skill .title {
+    padding-top: 70px;
+    font-family: MontserratBold;
+    color: black;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 30px; }
+    .skill .title span {
+      color: #EF106E;
+      font-size: 40px; }
+  .skill .content {
+    padding-top: 45px; }
+    .skill .content .list {
+      min-height: 40px; }
+      .skill .content .list .icon {
+        width: 10%;
+        float: left;
+        font-size: 40px;
+        color: #9C9C9C; }
+      .skill .content .list .icon-title {
+        width: 90%;
+        float: left; }
+        .skill .content .list .icon-title h6 {
+          font-family: 'Montserrat', sans-serif;
+          color: #363636;
+          font-weight: 400;
+          line-height: 20px;
+          font-size: 16px;
+          padding-left: 10px; }
+    .skill .content .skill-description {
+      padding-left: 44px; }
+      .skill .content .skill-description span {
+        font-family: 'Montserrat', sans-serif;
+        color: #616161;
+        font-weight: 400;
+        line-height: 19px;
+        font-size: 13px; }
+
+.learning {
+  padding-bottom: 40px; }
+  .learning .learning-content .leaning-left .top {
+    padding-top: 70px;
+    font-family: MontserratBold;
+    color: black;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 30px; }
+    .learning .learning-content .leaning-left .top span {
+      color: #EF106E;
+      font-size: 40px; }
+  .learning .learning-content .leaning-left .center {
+    padding-top: 26px;
+    padding-left: 13px; }
+    .learning .learning-content .leaning-left .center .inside-center {
+      border-bottom: 1px solid #CFCFCF;
+      padding-bottom: 26px; }
+      .learning .learning-content .leaning-left .center .inside-center span {
+        font-family: 'Montserrat', sans-serif;
+        color: #4f4f4f;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 16px; }
+  .learning .learning-content .leaning-left .bottom .list {
+    padding-top: 26px; }
+    .learning .learning-content .leaning-left .bottom .list .list-top {
+      min-height: 43px; }
+      .learning .learning-content .leaning-left .bottom .list .list-top .list-number {
+        width: 10%;
+        float: left;
+        font-size: 37px;
+        font-weight: 700;
+        padding-top: 15px;
+        color: #4A4A4A; }
+      .learning .learning-content .leaning-left .bottom .list .list-top .list-title {
+        width: 90%;
+        float: left; }
+        .learning .learning-content .leaning-left .bottom .list .list-top .list-title h5 {
+          font-family: 'Montserrat', sans-serif;
+          color: #4a4a4a;
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 18px; }
+    .learning .learning-content .leaning-left .bottom .list .list-bottom {
+      max-width: 430px; }
+      .learning .learning-content .leaning-left .bottom .list .list-bottom p {
+        padding-left: 55px;
+        font-family: 'Montserrat', sans-serif;
+        color: #4a4a4a;
+        font-weight: 400;
+        line-height: 17px;
+        font-size: 14px; }
+  .learning .learning-content .learning-right img {
+    max-width: 100%;
+    padding-top: 100px; }
+
+.career {
+  background-color: #F2F2F2; }
+  .career .career-content .top {
+    padding-top: 70px;
+    font-family: MontserratBold;
+    color: black;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 30px; }
+    .career .career-content .top span {
+      color: #EF106E;
+      font-size: 40px; }
+  .career .career-content .center {
+    padding-top: 50px;
+    padding-bottom: 80px; }
+    .career .career-content .center .career-list .career-top h6 {
+      font-family: 'Montserrat', sans-serif;
+      color: black;
+      font-weight: 400;
+      line-height: 22px;
+      font-size: 16px;
+      margin-bottom: 0; }
+    .career .career-content .center .career-list .career-top-desc {
+      font-family: 'Montserrat', sans-serif;
+      color: #6e6e6e;
+      font-weight: 400;
+      line-height: 19px;
+      font-size: 13px; }
+    .career .career-content .center .career-list .time {
+      margin-top: 20px;
+      min-height: 35px; }
+      .career .career-content .center .career-list .time .time-left {
+        width: 37%;
+        float: left;
+        background-color: black;
+        padding-top: 7px;
+        padding-bottom: 6px; }
+        .career .career-content .center .career-list .time .time-left span {
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+          font-weight: 400;
+          line-height: 19px;
+          font-size: 13px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 17px; }
+      .career .career-content .center .career-list .time hr {
+        width: 62%;
+        float: left;
+        border: 1px solid black;
+        margin-top: 15px; }
+    .career .career-content .center .career-list .bottom {
+      padding-top: 15px; }
+      .career .career-content .center .career-list .bottom span {
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-weight: 400;
+        line-height: 19px;
+        font-size: 13px; }
+
+.customer {
+  background-color: #FFD800;
+  padding-top: 135px;
+  padding-bottom: 135px;
+  text-align: center; }
+  .customer .customer-content .icon {
+    color: white;
+    font-size: 40px; }
+  .customer .customer-content .number {
+    padding-top: 20px; }
+    .customer .customer-content .number p {
+      color: #2e2e2e;
+      font-weight: 700;
+      line-height: 40px;
+      font-size: 36px; }
+  .customer .customer-content .description {
+    font-family: Montserrat;
+    color: #2e2e2e;
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 13px; }
+
+.rewards {
+  background-color: #E91E63;
+  padding-top: 77px;
+  padding-bottom: 77px; }
+  .rewards .reward-content .content-left img {
+    max-width: 100%; }
+  .rewards .reward-content .content-right {
+    margin-top: 180px; }
+    .rewards .reward-content .content-right .top {
+      padding-bottom: 50px;
+      border-bottom: 1px solid #F493B4; }
+      .rewards .reward-content .content-right .top p {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 400;
+        line-height: 27px;
+        font-size: 21px; }
+    .rewards .reward-content .content-right .bottom {
+      padding-top: 40px; }
+      .rewards .reward-content .content-right .bottom .bottom-left {
+        width: 50%;
+        float: left; }
+        .rewards .reward-content .content-right .bottom .bottom-left .number-left {
+          width: 30%;
+          float: left;
+          font-family: 'Montserrat', sans-serif;
+          color: black;
+          font-weight: 400;
+          line-height: 61px;
+          font-size: 55px; }
+        .rewards .reward-content .content-right .bottom .bottom-left .rewards-right {
+          width: 70%;
+          float: left;
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 16px;
+          padding-top: 10px; }
+      .rewards .reward-content .content-right .bottom .bottom-right {
+        width: 50%;
+        float: left; }
+        .rewards .reward-content .content-right .bottom .bottom-right .number-left {
+          width: 30%;
+          float: left;
+          font-family: 'Montserrat', sans-serif;
+          color: black;
+          font-weight: 400;
+          line-height: 61px;
+          font-size: 55px; }
+        .rewards .reward-content .content-right .bottom .bottom-right .rewards-right {
+          width: 70%;
+          float: left;
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 16px;
+          padding-top: 10px; }
+
+.contact {
+  background-color: white;
+  padding-bottom: 30px; }
+  .contact .contact-content {
+    padding-top: 70px; }
+    .contact .contact-content .title {
+      font-family: MontserratBold;
+      color: black;
+      font-weight: 700;
+      line-height: 36px;
+      font-size: 30px; }
+      .contact .contact-content .title span {
+        color: #EF106E;
+        font-size: 40px; }
+    .contact .contact-content .contact-right {
+      padding-top: 15px;
+      padding-bottom: 20px; }
+      .contact .contact-content .contact-right .top {
+        border-bottom: 1px solid #EF106E;
+        padding-bottom: 15px; }
+        .contact .contact-content .contact-right .top .top-title p {
+          font-family: 'Montserrat', sans-serif;
+          color: #ef106e;
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 18px; }
+        .contact .contact-content .contact-right .top .top-content p {
+          font-family: 'Montserrat', sans-serif;
+          color: #ef106e;
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 14px; }
+      .contact .contact-content .contact-right .bottom {
+        padding-top: 30px; }
+        .contact .contact-content .contact-right .bottom .bottom-title p {
+          font-family: 'Montserrat', sans-serif;
+          color: #ef106e;
+          font-weight: 400;
+          line-height: 18px;
+          font-size: 14px;
+          margin-bottom: 25px; }
+        .contact .contact-content .contact-right .bottom .bottom-form .bottom-form-left input {
+          width: 100%;
+          margin-bottom: 10px;
+          border: 1px solid #EF106E;
+          padding-top: 7px;
+          padding-bottom: 7px;
+          padding-left: 3px; }
+        .contact .contact-content .contact-right .bottom .bottom-form .bottom-form-right textarea {
+          width: 100%;
+          border: 1px solid #EF106E;
+          padding-left: 3px;
+          height: 122px; }
+        .contact .contact-content .contact-right .bottom .bottom-button button {
+          background-color: #242424;
+          color: #ffffff;
+          font-weight: 700;
+          line-height: 22px;
+          font-size: 14px;
+          border-radius: 0; }
+          .contact .contact-content .contact-right .bottom .bottom-button button span {
+            padding-left: 25px;
+            padding-right: 30px; }
+
+@media (max-width: 1199px) {
+  .learning .learning-content .leaning-left .bottom .list .list-top .list-number {
+    width: 15%; }
+
+  .learning .learning-content .leaning-left .bottom .list .list-top .list-title {
+    width: 85%; }
+
+  .learning .learning-content .leaning-left .bottom .list .list-bottom p {
+    padding-left: 67px; } }
+@media (max-width: 991px) {
+  .banner-top .banner-content .banner-left {
+    padding-top: 0;
+    padding-bottom: 20px; }
+
+  .banner-top .banner-content {
+    text-align: center; }
+
+  .personal .personal-content .personal-right {
+    margin-top: 70px; }
+
+  .skill .content .skill-description {
+    padding-bottom: 20px; }
+
+  .learning .learning-content .leaning-left .bottom .list .list-bottom {
+    max-width: 100%; }
+
+  .learning .learning-content .leaning-left .bottom .list .list-bottom {
+    max-width: 100%; }
+
+  .learning .learning-content .leaning-left .bottom .list .list-bottom p {
+    padding-left: 109px; } }
+@media (max-width: 767px) {
+  .personal .personal-content .personal-right {
+    margin-top: 70px; }
+
+  .learning .learning-content .learning-right img {
+    padding-top: 60px; }
+
+  .career-list {
+    padding-bottom: 20px; }
+
+  .rewards .reward-content .content-right {
+    margin-top: 80px; }
+
+  .customer {
+    padding-top: 65px;
+    padding-bottom: 65px; } }
+@media (max-width: 479px) {
+  .banner-top .banner-content .banner-left .content .top h1 {
+    font-size: 36px; }
+
+  .banner-top .banner-content .banner-left .content .center h1 {
+    font-size: 45px; }
+
+  .personal .personal-content .personal-left .content {
+    padding-top: 70px; }
+
+  .personal .personal-content .personal-right {
+    margin-top: 70px; }
+
+  .learning .learning-content .leaning-left .bottom .list .list-bottom p {
+    padding-left: 63px; }
+
+  .rewards .reward-content .content-right .bottom .bottom-left, .rewards .reward-content .content-right .bottom .bottom-right {
+    width: 100%; }
+
+  .learning .learning-content .leaning-left .bottom .list .list-top .list-number {
+    font-size: 30px; }
+
+  .rewards .reward-content .content-right .top p {
+    font-size: 17px; }
+
+  .rewards .reward-content .content-right {
+    margin-top: 60px; } }
+
+/*# sourceMappingURL=app.css.map */
