@@ -479,5 +479,16 @@ body {
 
   .rewards {
     padding-bottom: 60px; } }
+@media (max-width: 320px) {
+  .rewards .rewards-content .title h2, .comments .comments-content .title h2 {
+    font-size: 23px; }
+
+  .comments .comments-content .title-sub h6 {
+    padding-left: 5px;
+    padding-right: 5px; }
+
+  .comments .comments-content .title-sub h6 {
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 /*# sourceMappingURL=app.css.map */
