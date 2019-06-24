@@ -1,0 +1,491 @@
+@font-face {
+  font-family: RobotoSlab;
+  src: url("RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url("UVF Lobster12.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: BalooBhaina;
+  src: url("BalooBhaina-Regular.ttf");
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  background: #fafafa;
+  color: #000;
+}
+
+.banner-top {
+  background-image: url("b9253b84-8f86-4d9a-85c0-8431008d9091.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  .banner-content {
+    padding-top: 64px;
+    .banner-img {
+      img {
+        max-width: 100%;
+      }
+    }
+    .banner-right {
+      font-family: RobotoSlab;
+      padding-top: 66px;
+      padding-left: 60px;
+      .top-title {
+        h2 {
+          color: rgba(13, 71, 161, 1);
+          font-weight: 700;
+          line-height: 34px;
+          font-size: 29px;
+        }
+      }
+      .top-title-sub {
+        h6 {
+          color: rgba(13, 71, 161, 1);
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 14px;
+          padding-top: 8px;
+        }
+      }
+      .banner-right-bottom {
+        margin-top: 50px;
+        color: rgba(13, 71, 161, 1);
+        .content {
+          .content-img-left {
+            width: 140px;
+            float: left;
+            img {
+              max-width: 100%;
+              border-radius: 110px;
+            }
+          }
+          .content-text-right {
+            padding-left: 12px;
+            width: 217px;
+            float: left;
+            .top {
+              h3 {
+                margin-top: 0;
+              }
+            }
+            hr {
+              border-top: 1px solid #7A97C2;
+            }
+            .bottom {
+              h6 {
+                font-weight: 400;
+                line-height: 22px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.information {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url("brickwall.png");
+  background-position: center;
+  background-repeat: repeat;
+  height: 100%;
+  .information-content {
+    max-width: 963px;
+    margin: 0 auto;
+    .top-title {
+      h1 {
+        font-family: Lobster;
+        color: rgba(250, 5, 108, 1);
+        font-weight: 400;
+        line-height: 42px;
+        font-size: 36px;
+      }
+    }
+    .top-title-sub {
+      h6 {
+        font-family: Roboto;
+        color: rgba(0, 0, 0, 1);
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 16px;
+      }
+    }
+    .top-img {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 8px;
+      img {
+        max-width: 100%;
+      }
+    }
+    .info-bottom {
+      padding-top: 30px;
+      padding-bottom: 10px;
+      border-top: 2px dashed #D6D6D6;
+      border-bottom: 2px dashed #D6D6D6;
+      .list {
+        .list-left {
+          width: 25%;
+          float: left;
+          font-size: 35px;
+          padding-top: 10px;
+          color: #FA056C;
+        }
+        .list-right {
+          font-family: RobotoSlab;
+          width: 75%;
+          float: left;
+          .top {
+            h6 {
+              font-weight: 600;
+              line-height: 22px;
+              font-size: 16px;
+            }
+          }
+          .bottom {
+            p {
+              color: rgba(97, 97, 97, 1);
+              font-weight: 400;
+              line-height: 20px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.my-skill {
+  padding-top: 20px;
+  padding-bottom: 49px;
+  background-color: #F5F5F5;
+  .my-skill-content {
+    max-width: 963px;
+    margin: 0 auto;
+    .top-title {
+      h2 {
+        color: rgba(66, 66, 66, 1);
+        font-weight: 400;
+        line-height: 34px;
+        font-size: 30px;
+        font-family: Roboto;
+      }
+    }
+    .top-title-sub {
+      h6 {
+        color: rgba(0, 0, 0, 1);
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 16px;
+        font-family: Roboto;
+      }
+    }
+    .bottom-list {
+      margin-top: 55px;
+      .col-wrap{
+        margin-bottom: 30px;
+        .list-left {
+          width: 207px;
+          float: left;
+          img {
+            max-width: 100%;
+          }
+        }
+        .list-right {
+          width: 54%;
+          float: left;
+          background-color: white;
+          padding-left: 35px;
+          padding-bottom: 37px;
+          .title {
+            h3 {
+              color: rgba(66, 66, 66, 1);
+              font-weight: 700;
+              line-height: 28px;
+              font-size: 24px;
+            }
+          }
+          .sub-title {
+            h6 {
+              color: rgba(0, 150, 136, 1);
+              font-weight: 700;
+              line-height: 20px;
+              font-size: 16px;
+            }
+          }
+          .description {
+            p {
+              color: rgba(97, 97, 97, 1);
+              line-height: 20px;
+              font-size: 14px;
+              font-family: Roboto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.career{
+  background-image: url("untitled-1-693834.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+  .career-left{
+    img{
+      max-width: 100%;
+      padding-top: 65px;
+    }
+  }
+  .career-right{
+    padding-top: 40px;
+    padding-left: 48px;
+    .title{
+      h1{
+        color: rgba(209,40,141,1);
+        font-weight: 400;
+        line-height: 42px;
+        font-family: BalooBhaina;
+        font-size: 36px;
+      }
+    }
+    .sub-title{
+      h6{
+        color: rgba(255,255,255,1);
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: Roboto;
+      }
+    }
+    .bottom-list{
+      .list{
+        margin-top: 65px;
+        .list-h5{
+          padding-bottom: 5px;
+          border-bottom: 1px dashed white;
+          h5{
+            color: rgba(209,40,141,1);
+            font-weight: 400;
+            line-height: 24px;
+            font-family: BalooBhaina;
+            font-size: 18px;
+          }
+        }
+        p{
+          color: rgba(255,255,255,1);
+          font-weight: 400;
+          line-height: 20px;
+          font-family: Roboto;
+          font-size: 14px;
+          padding-top: 18px;
+        }
+      }
+    }
+  }
+}
+.production{
+  padding-top: 35px;
+  padding-bottom: 145px;
+  background-color: white;
+  .production-content{
+    .title{
+      h2{
+        color: rgba(66,66,66,1);
+        font-weight: 400;
+        line-height: 34px;
+        font-family: Roboto;
+        font-size: 30px;
+      }
+    }
+    .sub-title{
+      h6{
+        color: rgba(97,97,97,1);
+        font-weight: 400;
+        line-height: 22px;
+        font-family: Roboto;
+        font-size: 16px;
+
+      }
+    }
+    .col-wrapper{
+      margin-top: 20px;
+      img{
+        max-width: 100%;
+      }
+      .list-product-margin{
+        margin-top: 30px;
+      }
+    }
+  }
+}
+.rewards{
+  padding-bottom: 100px;
+  padding-top: 20px;
+  background-color: #F5F5F5;
+  .rewards-content{
+    .title{
+      h2{
+        color: rgba(66,66,66,1);
+        font-weight: 400;
+        line-height: 34px;
+        font-size: 30px;
+        font-family: Roboto;
+      }
+    }
+    .sub-title{
+      h6{
+        color: rgba(0,0,0,1);
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 16px;
+        font-family: Roboto;
+      }
+    }
+    .bottom-list{
+      margin-top: 70px;
+      .list{
+        background-color: white;
+        padding-bottom: 75px;
+        .image{
+          img{
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+        .title{
+          margin-top: 15px;
+          h6{
+            color: rgba(0,150,136,1);
+            font-weight: 700;
+            line-height: 20px;
+            font-size: 16px;
+          }
+          p{
+            color: rgba(97,97,97,1);
+            font-weight: 400;
+            line-height: 20px;
+            font-size: 14px;
+            font-family: Roboto;
+          }
+        }
+      }
+    }
+  }
+}
+.footer{
+  padding-top: 25px;
+  background-image: url("e4b2e860-e6e7-41ca-b922-6f75a6453aa8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 250px;
+  .footer-content{
+    .title{
+      h3{
+        color: rgba(66,66,66,1);
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 2px;
+        font-size: 24px;
+      }
+    }
+    .text-center{
+      margin-top: 35px;
+      p{
+        color: rgba(117,117,117,1);
+        line-height: 22px;
+        font-size: 14px;
+      }
+    }
+    .text-bottom{
+      margin-top: 35px;
+      p{
+        color: rgba(117,117,117,1);
+        line-height: 22px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 1199px)
+{
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-right
+  {
+    width: 52%;
+  }
+}
+@media (max-width: 991px)
+{
+  .banner-top .banner-content .banner-right{
+    padding-left: 0;
+    text-align: center;
+  }
+  .banner-top .banner-content .banner-right .banner-right-bottom .content{
+    padding-left: 97px;
+  }
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-right{
+    width: 70%;
+  }
+  .rewards .rewards-content .bottom-list .list{
+    margin-bottom: 30px;
+  }
+  .rewards .rewards-content .bottom-list .list .image img
+  {
+    padding-top: 15px;
+  }
+}
+@media (max-width: 767px)
+{
+  .information .information-content .info-bottom{
+    text-align: center;
+  }
+  .banner-top .banner-content .banner-right .banner-right-bottom{
+    display: none;
+  }
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-right{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-left{
+    float: none;
+    width: 100%;
+  }
+  .career .career-right{
+    padding-left: 0;
+  }
+}
+@media (max-width: 375px){
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-right .title h3{
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px)
+{
+  .banner-top .banner-content .banner-right .top-title h2, .my-skill .my-skill-content .top-title h2, .production .production-content .title h2, .rewards .rewards-content .title h2 {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,347 @@
+@font-face {
+  font-family: RobotoSlab;
+  src: url("RobotoSlab-Regular.ttf"); }
+@font-face {
+  font-family: Lobster;
+  src: url("UVF Lobster12.ttf"); }
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Regular.ttf"); }
+@font-face {
+  font-family: BalooBhaina;
+  src: url("BalooBhaina-Regular.ttf"); }
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  background: #fafafa;
+  color: #000; }
+
+.banner-top {
+  background-image: url("b9253b84-8f86-4d9a-85c0-8431008d9091.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
+  .banner-top .banner-content {
+    padding-top: 64px; }
+    .banner-top .banner-content .banner-img img {
+      max-width: 100%; }
+    .banner-top .banner-content .banner-right {
+      font-family: RobotoSlab;
+      padding-top: 66px;
+      padding-left: 60px; }
+      .banner-top .banner-content .banner-right .top-title h2 {
+        color: #0d47a1;
+        font-weight: 700;
+        line-height: 34px;
+        font-size: 29px; }
+      .banner-top .banner-content .banner-right .top-title-sub h6 {
+        color: #0d47a1;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 14px;
+        padding-top: 8px; }
+      .banner-top .banner-content .banner-right .banner-right-bottom {
+        margin-top: 50px;
+        color: #0d47a1; }
+        .banner-top .banner-content .banner-right .banner-right-bottom .content .content-img-left {
+          width: 140px;
+          float: left; }
+          .banner-top .banner-content .banner-right .banner-right-bottom .content .content-img-left img {
+            max-width: 100%;
+            border-radius: 110px; }
+        .banner-top .banner-content .banner-right .banner-right-bottom .content .content-text-right {
+          padding-left: 12px;
+          width: 217px;
+          float: left; }
+          .banner-top .banner-content .banner-right .banner-right-bottom .content .content-text-right .top h3 {
+            margin-top: 0; }
+          .banner-top .banner-content .banner-right .banner-right-bottom .content .content-text-right hr {
+            border-top: 1px solid #7A97C2; }
+          .banner-top .banner-content .banner-right .banner-right-bottom .content .content-text-right .bottom h6 {
+            font-weight: 400;
+            line-height: 22px;
+            font-size: 14px; }
+
+.information {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url("brickwall.png");
+  background-position: center;
+  background-repeat: repeat;
+  height: 100%; }
+  .information .information-content {
+    max-width: 963px;
+    margin: 0 auto; }
+    .information .information-content .top-title h1 {
+      font-family: Lobster;
+      color: #fa056c;
+      font-weight: 400;
+      line-height: 42px;
+      font-size: 36px; }
+    .information .information-content .top-title-sub h6 {
+      font-family: Roboto;
+      color: black;
+      font-weight: 400;
+      line-height: 22px;
+      font-size: 16px; }
+    .information .information-content .top-img {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 8px; }
+      .information .information-content .top-img img {
+        max-width: 100%; }
+    .information .information-content .info-bottom {
+      padding-top: 30px;
+      padding-bottom: 10px;
+      border-top: 2px dashed #D6D6D6;
+      border-bottom: 2px dashed #D6D6D6; }
+      .information .information-content .info-bottom .list .list-left {
+        width: 25%;
+        float: left;
+        font-size: 35px;
+        padding-top: 10px;
+        color: #FA056C; }
+      .information .information-content .info-bottom .list .list-right {
+        font-family: RobotoSlab;
+        width: 75%;
+        float: left; }
+        .information .information-content .info-bottom .list .list-right .top h6 {
+          font-weight: 600;
+          line-height: 22px;
+          font-size: 16px; }
+        .information .information-content .info-bottom .list .list-right .bottom p {
+          color: #616161;
+          font-weight: 400;
+          line-height: 20px;
+          font-size: 14px; }
+
+.my-skill {
+  padding-top: 20px;
+  padding-bottom: 49px;
+  background-color: #F5F5F5; }
+  .my-skill .my-skill-content {
+    max-width: 963px;
+    margin: 0 auto; }
+    .my-skill .my-skill-content .top-title h2 {
+      color: #424242;
+      font-weight: 400;
+      line-height: 34px;
+      font-size: 30px;
+      font-family: Roboto; }
+    .my-skill .my-skill-content .top-title-sub h6 {
+      color: black;
+      font-weight: 400;
+      line-height: 22px;
+      font-size: 16px;
+      font-family: Roboto; }
+    .my-skill .my-skill-content .bottom-list {
+      margin-top: 55px; }
+      .my-skill .my-skill-content .bottom-list .col-wrap {
+        margin-bottom: 30px; }
+        .my-skill .my-skill-content .bottom-list .col-wrap .list-left {
+          width: 207px;
+          float: left; }
+          .my-skill .my-skill-content .bottom-list .col-wrap .list-left img {
+            max-width: 100%; }
+        .my-skill .my-skill-content .bottom-list .col-wrap .list-right {
+          width: 54%;
+          float: left;
+          background-color: white;
+          padding-left: 35px;
+          padding-bottom: 37px; }
+          .my-skill .my-skill-content .bottom-list .col-wrap .list-right .title h3 {
+            color: #424242;
+            font-weight: 700;
+            line-height: 28px;
+            font-size: 24px; }
+          .my-skill .my-skill-content .bottom-list .col-wrap .list-right .sub-title h6 {
+            color: #009688;
+            font-weight: 700;
+            line-height: 20px;
+            font-size: 16px; }
+          .my-skill .my-skill-content .bottom-list .col-wrap .list-right .description p {
+            color: #616161;
+            line-height: 20px;
+            font-size: 14px;
+            font-family: Roboto; }
+
+.career {
+  background-image: url("untitled-1-693834.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px; }
+  .career .career-left img {
+    max-width: 100%;
+    padding-top: 65px; }
+  .career .career-right {
+    padding-top: 40px;
+    padding-left: 48px; }
+    .career .career-right .title h1 {
+      color: #d1288d;
+      font-weight: 400;
+      line-height: 42px;
+      font-family: BalooBhaina;
+      font-size: 36px; }
+    .career .career-right .sub-title h6 {
+      color: white;
+      font-weight: 400;
+      line-height: 24px;
+      font-size: 16px;
+      font-family: Roboto; }
+    .career .career-right .bottom-list .list {
+      margin-top: 65px; }
+      .career .career-right .bottom-list .list .list-h5 {
+        padding-bottom: 5px;
+        border-bottom: 1px dashed white; }
+        .career .career-right .bottom-list .list .list-h5 h5 {
+          color: #d1288d;
+          font-weight: 400;
+          line-height: 24px;
+          font-family: BalooBhaina;
+          font-size: 18px; }
+      .career .career-right .bottom-list .list p {
+        color: white;
+        font-weight: 400;
+        line-height: 20px;
+        font-family: Roboto;
+        font-size: 14px;
+        padding-top: 18px; }
+
+.production {
+  padding-top: 35px;
+  padding-bottom: 145px;
+  background-color: white; }
+  .production .production-content .title h2 {
+    color: #424242;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: Roboto;
+    font-size: 30px; }
+  .production .production-content .sub-title h6 {
+    color: #616161;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: Roboto;
+    font-size: 16px; }
+  .production .production-content .col-wrapper {
+    margin-top: 20px; }
+    .production .production-content .col-wrapper img {
+      max-width: 100%; }
+    .production .production-content .col-wrapper .list-product-margin {
+      margin-top: 30px; }
+
+.rewards {
+  padding-bottom: 100px;
+  padding-top: 20px;
+  background-color: #F5F5F5; }
+  .rewards .rewards-content .title h2 {
+    color: #424242;
+    font-weight: 400;
+    line-height: 34px;
+    font-size: 30px;
+    font-family: Roboto; }
+  .rewards .rewards-content .sub-title h6 {
+    color: black;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: Roboto; }
+  .rewards .rewards-content .bottom-list {
+    margin-top: 70px; }
+    .rewards .rewards-content .bottom-list .list {
+      background-color: white;
+      padding-bottom: 75px; }
+      .rewards .rewards-content .bottom-list .list .image img {
+        max-width: 100%;
+        max-height: 100%; }
+      .rewards .rewards-content .bottom-list .list .title {
+        margin-top: 15px; }
+        .rewards .rewards-content .bottom-list .list .title h6 {
+          color: #009688;
+          font-weight: 700;
+          line-height: 20px;
+          font-size: 16px; }
+        .rewards .rewards-content .bottom-list .list .title p {
+          color: #616161;
+          font-weight: 400;
+          line-height: 20px;
+          font-size: 14px;
+          font-family: Roboto; }
+
+.footer {
+  padding-top: 25px;
+  background-image: url("e4b2e860-e6e7-41ca-b922-6f75a6453aa8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 250px; }
+  .footer .footer-content .title h3 {
+    color: #424242;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-size: 24px; }
+  .footer .footer-content .text-center {
+    margin-top: 35px; }
+    .footer .footer-content .text-center p {
+      color: #757575;
+      line-height: 22px;
+      font-size: 14px; }
+  .footer .footer-content .text-bottom {
+    margin-top: 35px; }
+    .footer .footer-content .text-bottom p {
+      color: #757575;
+      line-height: 22px;
+      font-size: 14px; }
+
+@media (max-width: 1199px) {
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-right {
+    width: 52%; } }
+@media (max-width: 991px) {
+  .banner-top .banner-content .banner-right {
+    padding-left: 0;
+    text-align: center; }
+
+  .banner-top .banner-content .banner-right .banner-right-bottom .content {
+    padding-left: 97px; }
+
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-right {
+    width: 70%; }
+
+  .rewards .rewards-content .bottom-list .list {
+    margin-bottom: 30px; }
+
+  .rewards .rewards-content .bottom-list .list .image img {
+    padding-top: 15px; } }
+@media (max-width: 767px) {
+  .information .information-content .info-bottom {
+    text-align: center; }
+
+  .banner-top .banner-content .banner-right .banner-right-bottom {
+    display: none; }
+
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-right {
+    width: 100%;
+    text-align: center;
+    padding: 0; }
+
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-left {
+    float: none;
+    width: 100%; }
+
+  .career .career-right {
+    padding-left: 0; } }
+@media (max-width: 375px) {
+  .my-skill .my-skill-content .bottom-list .col-wrap .list-right .title h3 {
+    font-size: 20px; } }
+@media (max-width: 479px) {
+  .banner-top .banner-content .banner-right .top-title h2, .my-skill .my-skill-content .top-title h2, .production .production-content .title h2, .rewards .rewards-content .title h2 {
+    font-size: 25px; } }
+
+/*# sourceMappingURL=app.css.map */
