@@ -1,0 +1,390 @@
+@font-face {
+  font-family: RobotoLight;
+  src: url("Roboto-Light.ttf"); }
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Regular.ttf"); }
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  background: #fafafa;
+  color: #000; }
+
+.banner-top::before {
+  background-color: rgba(10, 5, 34, 0.96);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%; }
+
+.banner-top {
+  padding-bottom: 20px;
+  background-image: url("f0db0b92-71c1-40c4-a1e9-7aeeb424a33f.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .banner-top .banner-content {
+    padding-top: 120px; }
+    .banner-top .banner-content .banner-left .img-logo img {
+      max-width: 110px;
+      border-radius: 110px; }
+    .banner-top .banner-content .banner-left .text {
+      border: 3px solid #6B6879;
+      margin-top: 50px;
+      padding-top: 10px;
+      padding-left: 36px;
+      padding-bottom: 52px; }
+      .banner-top .banner-content .banner-left .text .top h1 {
+        color: white;
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 36px; }
+      .banner-top .banner-content .banner-left .text .center {
+        max-width: 347px; }
+        .banner-top .banner-content .banner-left .text .center h3 {
+          color: white;
+          font-weight: 300;
+          line-height: 34px;
+          font-size: 24px;
+          font-family: RobotoLight; }
+      .banner-top .banner-content .banner-left .text .bottom h6 {
+        color: white;
+        font-weight: 700;
+        line-height: 26px;
+        font-size: 16px;
+        font-family: RobotoLight; }
+    .banner-top .banner-content .banner-left .see-more {
+      margin-top: 67px;
+      border-left: 3px solid #F6F6F7;
+      padding-left: 20px; }
+      .banner-top .banner-content .banner-left .see-more .top p {
+        color: #ffd600;
+        font-weight: 300;
+        line-height: 18px;
+        font-size: 14px;
+        font-family: RobotoLight; }
+      .banner-top .banner-content .banner-left .see-more .center h6 {
+        color: #ffd600;
+        font-weight: 700;
+        line-height: 20px;
+        font-size: 16px; }
+      .banner-top .banner-content .banner-left .see-more .bottom-button {
+        margin-top: 28px; }
+        .banner-top .banner-content .banner-left .see-more .bottom-button button {
+          background-color: #ffd600;
+          box-shadow: 0px 3px 0px #c1a309;
+          padding-left: 30px;
+          padding-right: 30px;
+          padding-bottom: 3px; }
+          .banner-top .banner-content .banner-left .see-more .bottom-button button span {
+            color: #212121;
+            font-weight: 700;
+            line-height: 22px;
+            font-family: Roboto; }
+    .banner-top .banner-content .banner-right img {
+      max-width: 100%; }
+
+.personal-information {
+  background-color: #28273D; }
+  .personal-information .information-content .info-left {
+    text-align: center;
+    background-image: url("61142342_345889082779968_7855302318877573120_n.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 226px; }
+    .personal-information .information-content .info-left .title h2 {
+      color: white;
+      font-weight: 700;
+      line-height: 36px;
+      font-size: 30px; }
+    .personal-information .information-content .info-left .sub-title {
+      margin-top: 20px; }
+      .personal-information .information-content .info-left .sub-title h6 {
+        color: white;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 16px;
+        font-family: Roboto; }
+    .personal-information .information-content .info-left hr {
+      width: 45px;
+      margin-top: 100px; }
+  .personal-information .information-content .info-right {
+    color: white;
+    padding-top: 20px;
+    padding-left: 56px; }
+    .personal-information .information-content .info-right .top .left, .personal-information .information-content .info-right .top .right, .personal-information .information-content .info-right .bottom .left, .personal-information .information-content .info-right .bottom .right {
+      width: 50%;
+      float: left;
+      padding-top: 95px; }
+      .personal-information .information-content .info-right .top .left .icon, .personal-information .information-content .info-right .top .right .icon, .personal-information .information-content .info-right .bottom .left .icon, .personal-information .information-content .info-right .bottom .right .icon {
+        font-size: 45px; }
+      .personal-information .information-content .info-right .top .left .title, .personal-information .information-content .info-right .top .right .title, .personal-information .information-content .info-right .bottom .left .title, .personal-information .information-content .info-right .bottom .right .title {
+        margin-top: 20px; }
+        .personal-information .information-content .info-right .top .left .title h6, .personal-information .information-content .info-right .top .right .title h6, .personal-information .information-content .info-right .bottom .left .title h6, .personal-information .information-content .info-right .bottom .right .title h6 {
+          color: white;
+          font-weight: 700;
+          line-height: 20px;
+          font-size: 16px; }
+      .personal-information .information-content .info-right .top .left .name p, .personal-information .information-content .info-right .top .right .name p, .personal-information .information-content .info-right .bottom .left .name p, .personal-information .information-content .info-right .bottom .right .name p {
+        color: white;
+        line-height: 19px;
+        font-size: 13px;
+        font-family: Roboto; }
+
+.my-skill {
+  background-image: url(bg-footer.png);
+  padding-top: 96px;
+  background-size: cover; }
+  .my-skill .my-skill-content .title .wrap-text {
+    padding-bottom: 15px; }
+    .my-skill .my-skill-content .title .wrap-text span {
+      color: white;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0;
+      font-family: Roboto;
+      font-size: 24px;
+      background-color: #E82E81;
+      padding: 8px 84px;
+      border-radius: 10px; }
+  .my-skill .my-skill-content .sub-title {
+    margin-top: 17px; }
+    .my-skill .my-skill-content .sub-title h6 {
+      color: white;
+      font-weight: 400;
+      line-height: 20px;
+      font-size: 16px;
+      font-family: Roboto; }
+  .my-skill .my-skill-content .bottom .image-left {
+    margin-top: 75px; }
+    .my-skill .my-skill-content .bottom .image-left img {
+      max-width: 100%; }
+  .my-skill .my-skill-content .bottom .list-right {
+    margin-top: 95px; }
+    .my-skill .my-skill-content .bottom .list-right .list-top, .my-skill .my-skill-content .bottom .list-right .list-center, .my-skill .my-skill-content .bottom .list-right .list-bottom {
+      min-height: 38px;
+      margin-bottom: 65px; }
+      .my-skill .my-skill-content .bottom .list-right .list-top .list .left, .my-skill .my-skill-content .bottom .list-right .list-center .list .left, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .left {
+        color: #DBFF00;
+        font-size: 35px;
+        width: 40px;
+        float: left; }
+      .my-skill .my-skill-content .bottom .list-right .list-top .list .right, .my-skill .my-skill-content .bottom .list-right .list-center .list .right, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .right {
+        float: left; }
+        .my-skill .my-skill-content .bottom .list-right .list-top .list .right p, .my-skill .my-skill-content .bottom .list-right .list-center .list .right p, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .right p {
+          color: white;
+          font-weight: 400;
+          line-height: 20px;
+          font-size: 14px; }
+
+.certification {
+  padding-top: 35px;
+  padding-bottom: 90px; }
+  .certification .certification-content .title h2 {
+    color: dimgray;
+    font-weight: 700;
+    line-height: 34px;
+    font-size: 30px; }
+  .certification .certification-content .sub-title h2 {
+    color: #666666;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: RobotoLight;
+    max-width: 540px;
+    margin: 0 auto; }
+  .certification .certification-content .image {
+    margin-top: 40px; }
+    .certification .certification-content .image .left {
+      text-align: right; }
+      .certification .certification-content .image .left img {
+        max-width: 35%; }
+    .certification .certification-content .image .right {
+      text-align: left; }
+      .certification .certification-content .image .right img {
+        max-width: 35%; }
+  .certification .certification-content .text-bottom {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 47px; }
+    .certification .certification-content .text-bottom p {
+      color: #636363;
+      font-weight: 400;
+      line-height: 19px;
+      font-size: 13px; }
+
+.comments {
+  padding-top: 60px;
+  padding-bottom: 86px;
+  background-color: white; }
+  .comments .comments-content .title h2 {
+    color: black;
+    font-weight: 700;
+    line-height: 34px;
+    font-size: 30px; }
+  .comments .comments-content .sub-title {
+    max-width: 576px;
+    margin: 0 auto; }
+    .comments .comments-content .sub-title h6 {
+      color: black;
+      font-weight: 300;
+      line-height: 20px;
+      font-size: 16px;
+      font-family: RobotoLight; }
+  .comments .comments-content .list-content {
+    margin-top: 52px; }
+    .comments .comments-content .list-content .list {
+      height: 114px;
+      margin-bottom: 20px; }
+      .comments .comments-content .list-content .list .left {
+        text-align: right; }
+        .comments .comments-content .list-content .list .left img {
+          max-width: 98px;
+          border-radius: 110px; }
+      .comments .comments-content .list-content .list .right {
+        margin-left: 20px;
+        margin-top: 12px; }
+        .comments .comments-content .list-content .list .right .top span:first-child {
+          color: #4d4d4d;
+          font-weight: 700;
+          line-height: 20px;
+          font-size: 16px; }
+        .comments .comments-content .list-content .list .right .top span:last-child {
+          color: #a1a1a1;
+          font-weight: 400;
+          line-height: 16px;
+          font-size: 12px;
+          padding-left: 22px; }
+        .comments .comments-content .list-content .list .right .center-star {
+          margin-top: 8px; }
+          .comments .comments-content .list-content .list .right .center-star i {
+            font-size: 22px;
+            color: #FFAE0F;
+            margin-right: 11px; }
+        .comments .comments-content .list-content .list .right .comment-text {
+          margin-top: 8px; }
+          .comments .comments-content .list-content .list .right .comment-text p {
+            color: #4d4d4d;
+            font-weight: 400;
+            line-height: 18px;
+            font-size: 14px;
+            font-family: RobotoLight; }
+
+.footer {
+  background-image: url("ff1f0fc9-98a4-4af0-b429-e7bc4f21ae18.png");
+  background-size: cover; }
+  .footer .footer-content .left {
+    padding-top: 105px; }
+    .footer .footer-content .left .top h2 {
+      color: white;
+      font-weight: 300;
+      line-height: 34px;
+      font-family: RobotoLight;
+      font-size: 30px; }
+    .footer .footer-content .left .center {
+      margin-top: 15px; }
+      .footer .footer-content .left .center h6 {
+        color: white;
+        line-height: 20px;
+        font-size: 16px; }
+    .footer .footer-content .left .bottom-button {
+      margin-top: 22px; }
+      .footer .footer-content .left .bottom-button button {
+        background-color: #FFC107;
+        padding-top: 10px; }
+        .footer .footer-content .left .bottom-button button span {
+          color: #212121;
+          font-weight: 700;
+          line-height: 22px;
+          font-size: 13px;
+          font-family: Roboto;
+          padding-left: 20px;
+          padding-right: 20px; }
+  .footer .footer-content .right {
+    text-align: center;
+    margin-top: 20px; }
+    .footer .footer-content .right img {
+      max-width: 42%; }
+
+@media (max-width: 1199px) {
+  .footer {
+    padding-bottom: 20px; } }
+@media (max-width: 991px) {
+  .banner-right {
+    text-align: center;
+    margin-top: 20px; }
+
+  .info-right {
+    padding-left: 0 !important; }
+    .info-right .top, .info-right .bottom {
+      text-align: center; }
+      .info-right .top .left, .info-right .top .right, .info-right .bottom .left, .info-right .bottom .right {
+        padding-top: 50px !important; }
+
+  .my-skill .my-skill-content .bottom .list-right .list-top .list .right, .my-skill .my-skill-content .bottom .list-right .list-center .list .right, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .right {
+    width: 75%;
+    padding-left: 10px; }
+
+  .my-skill .my-skill-content .bottom .list-right .list-top .list .left, .my-skill .my-skill-content .bottom .list-right .list-center .list .left, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .left {
+    width: 25%;
+    text-align: right; }
+
+  .certification .certification-content .image .left, .certification .certification-content .image .right {
+    text-align: center; }
+
+  .comments .comments-content .list-content .list .left, .comments .comments-content .list-content .list .right {
+    text-align: center; }
+
+  .list .right .top {
+    margin-top: 20px; }
+
+  .comments .comments-content .list-content .list {
+    height: 205px; }
+
+  .footer-content {
+    text-align: center; } }
+@media (max-width: 767px) {
+  .my-skill .my-skill-content .bottom .image-left {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  .my-skill .my-skill-content .bottom .list-right .list-top .list .right, .my-skill .my-skill-content .bottom .list-right .list-center .list .right, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .right {
+    width: 65%; }
+
+  .my-skill .my-skill-content .bottom .list-right .list-top .list .left, .my-skill .my-skill-content .bottom .list-right .list-center .list .left, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .left {
+    width: 35%; }
+
+  .my-skill .my-skill-content .bottom .list-right {
+    margin-top: 65px; } }
+@media (max-width: 479px) {
+  .my-skill .my-skill-content .bottom .list-right .list-top .list .left, .my-skill .my-skill-content .bottom .list-right .list-center .list .left, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .left {
+    width: 26%; }
+
+  .my-skill .my-skill-content .title .wrap-text span {
+    padding: 8px 30px; } }
+@media (max-width: 425px) {
+  .banner-top .banner-content .banner-left .text {
+    padding-left: 10px; }
+
+  .my-skill .my-skill-content .bottom .list-right .list-top .list .left, .my-skill .my-skill-content .bottom .list-right .list-center .list .left, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .left {
+    width: 25%; }
+
+  .comments, .my-skill {
+    padding-top: 25px; }
+
+  .footer .footer-content .left {
+    padding-top: 25px; } }
+@media (max-width: 320px) {
+  .my-skill .my-skill-content .bottom .list-right .list-top .list .left, .my-skill .my-skill-content .bottom .list-right .list-center .list .left, .my-skill .my-skill-content .bottom .list-right .list-bottom .list .left {
+    width: 20%; } }
+
+/*# sourceMappingURL=app.css.map */
